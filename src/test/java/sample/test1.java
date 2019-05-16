@@ -1,5 +1,7 @@
 package sample;
 
+import java.util.Date;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -11,14 +13,16 @@ import org.testng.annotations.Test;
 public class test1 {
 
 	public WebDriver driver = null;
-	public String appURL = "https://preapp.avlview.com";
+	public String appURL = "https://cricbuzz.com";
 
 	@Parameters("browsername")
 
 	@BeforeTest
 	public void testSetUp(String bname) {
 
-		System.out.println("bname is " + bname);
+		Date d = new Date();
+
+		System.out.println("bname is " + bname + " " + d);
 		System.out.println("thread id is " + Thread.currentThread().getId());
 
 		if (bname.equalsIgnoreCase("chrome")) {
@@ -26,7 +30,7 @@ public class test1 {
 			System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir") + "\\src\\main\\resources\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
-		} else if (bname.equalsIgnoreCase("firefox")) {
+		} else if (bname.equalsIgnoreCase("ff")) {
 			System.setProperty("webdriver.gecko.driver",
 					System.getProperty("user.dir") + "\\src\\main\\resources\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();

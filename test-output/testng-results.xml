@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="54666" started-at="2019-05-10T08:22:13Z" finished-at="2019-05-10T08:23:08Z">
+  <suite name="Suite" duration-ms="46411" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:52Z">
     <groups>
     </groups>
-    <test name="Test chrome" duration-ms="40767" started-at="2019-05-10T08:22:13Z" finished-at="2019-05-10T08:22:54Z">
-      <class name="sample.test1">
-        <test-method status="PASS" signature="testSetUp(java.lang.String)[pri:0, instance:sample.test1@1686d1f]" name="testSetUp" is-config="true" duration-ms="14754" started-at="2019-05-10T08:22:13Z" finished-at="2019-05-10T08:22:28Z">
+    <test name="Test" duration-ms="36081" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:41Z">
+      <class name="sample.test6">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:sample.test6@1ee9989]" name="beforeMethod" is-config="true" duration-ms="12439" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:18Z">
           <params>
             <param index="0">
               <value>
@@ -17,39 +17,115 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="verifyTittle()[pri:0, instance:sample.test1@1686d1f]" name="verifyTittle" duration-ms="24676" started-at="2019-05-10T08:22:28Z" finished-at="2019-05-10T08:22:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTittle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:sample.test1@1686d1f]" name="tearDown" is-config="true" duration-ms="1289" started-at="2019-05-10T08:22:53Z" finished-at="2019-05-10T08:22:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- sample.test1 -->
-    </test> <!-- Test chrome -->
-    <test name="Test ff" duration-ms="54666" started-at="2019-05-10T08:22:13Z" finished-at="2019-05-10T08:23:08Z">
-      <class name="sample.test1">
-        <test-method status="PASS" signature="testSetUp(java.lang.String)[pri:0, instance:sample.test1@bfbc86]" name="testSetUp" is-config="true" duration-ms="33608" started-at="2019-05-10T08:22:13Z" finished-at="2019-05-10T08:22:47Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:sample.test6@1ee9989]" name="beforeMethod" is-config="true" duration-ms="12444" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="verifyTittle()[pri:0, instance:sample.test1@bfbc86]" name="verifyTittle" duration-ms="17494" started-at="2019-05-10T08:22:47Z" finished-at="2019-05-10T08:23:05Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:sample.test6@1ee9989]" name="beforeMethod" is-config="true" duration-ms="12488" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTittle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:sample.test1@bfbc86]" name="tearDown" is-config="true" duration-ms="3559" started-at="2019-05-10T08:23:05Z" finished-at="2019-05-10T08:23:08Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsThree()[pri:0, instance:sample.test6@1ee9989]" name="testMethodsThree" duration-ms="21906" started-at="2019-05-16T08:59:18Z" finished-at="2019-05-16T08:59:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- sample.test1 -->
-    </test> <!-- Test ff -->
+        </test-method> <!-- testMethodsThree -->
+        <test-method status="PASS" signature="testMethodsTwo()[pri:0, instance:sample.test6@1ee9989]" name="testMethodsTwo" duration-ms="4852" started-at="2019-05-16T08:59:18Z" finished-at="2019-05-16T08:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsTwo -->
+        <test-method status="PASS" signature="testMethodsOne()[pri:0, instance:sample.test6@1ee9989]" name="testMethodsOne" duration-ms="5025" started-at="2019-05-16T08:59:18Z" finished-at="2019-05-16T08:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sample.test6@1ee9989]" name="afterMethod" is-config="true" duration-ms="2167" started-at="2019-05-16T08:59:23Z" finished-at="2019-05-16T08:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sample.test6@1ee9989]" name="afterMethod" is-config="true" duration-ms="1988" started-at="2019-05-16T08:59:23Z" finished-at="2019-05-16T08:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sample.test6@1ee9989]" name="afterMethod" is-config="true" duration-ms="1620" started-at="2019-05-16T08:59:40Z" finished-at="2019-05-16T08:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- sample.test6 -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="46411" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:52Z">
+      <class name="sample.test6">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:sample.test6@bf3bbf]" name="beforeMethod" is-config="true" duration-ms="28901" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:sample.test6@bf3bbf]" name="beforeMethod" is-config="true" duration-ms="28500" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:sample.test6@bf3bbf]" name="beforeMethod" is-config="true" duration-ms="28488" started-at="2019-05-16T08:59:05Z" finished-at="2019-05-16T08:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsTwo()[pri:0, instance:sample.test6@bf3bbf]" name="testMethodsTwo" duration-ms="3223" started-at="2019-05-16T08:59:34Z" finished-at="2019-05-16T08:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsTwo -->
+        <test-method status="PASS" signature="testMethodsOne()[pri:0, instance:sample.test6@bf3bbf]" name="testMethodsOne" duration-ms="12181" started-at="2019-05-16T08:59:34Z" finished-at="2019-05-16T08:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsOne -->
+        <test-method status="PASS" signature="testMethodsThree()[pri:0, instance:sample.test6@bf3bbf]" name="testMethodsThree" duration-ms="15731" started-at="2019-05-16T08:59:34Z" finished-at="2019-05-16T08:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsThree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sample.test6@bf3bbf]" name="afterMethod" is-config="true" duration-ms="3388" started-at="2019-05-16T08:59:37Z" finished-at="2019-05-16T08:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sample.test6@bf3bbf]" name="afterMethod" is-config="true" duration-ms="2193" started-at="2019-05-16T08:59:46Z" finished-at="2019-05-16T08:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sample.test6@bf3bbf]" name="afterMethod" is-config="true" duration-ms="1667" started-at="2019-05-16T08:59:50Z" finished-at="2019-05-16T08:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- sample.test6 -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
